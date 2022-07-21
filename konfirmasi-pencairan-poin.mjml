@@ -1,0 +1,65 @@
+<mjml>
+  <mj-head>
+    <mj-font name="ZurichSans" href="/fonts/zurich-font.css" />
+    <mj-attributes>
+      <mj-all font-family="ZurichSans, Arial"></mj-all>
+      <mj-text padding="0 25px" font-size="13px"></mj-text>
+      <mj-section background-color="#ffffff"></mj-section>
+      <mj-class name="preheader" color="#000000" font-size="11px"></mj-class>
+    </mj-attributes>
+
+  </mj-head>
+  <mj-body background-color="#dde4e3">
+    <!-- HEADER -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="/images/header.jpg" alt="header image" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="5px" padding-top="10px">
+      <mj-column>
+        <mj-text align="left" line-height="25px" padding-top="50px" font-size="16px" color="#23366f">Hi, Ahmad Mustofa</mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Terima kasih atas partisipasi kamu di program influencer bersama <strong>BarengZurich.<strong>
+        </mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Kami sudah menerima pengajuan pencairan bonus kamu sebesar Rpxx dan akan segera melakukan validasi terkait data-data yang kamu kirimkan.
+        </mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Apabila semua data sudah lengkap dan valid, pembayaran akan dilakukan selambat-lambatnya pada 14 hari kerja, tingkatkan terus referensi kamu di program influencer bersama <strong>BarengZurich</strong> untuk mendapatkan lebih banyak bonus.
+        </mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Untuk pertanyaan, saran, dan masukan, kamu bisa mengunjungi halaman website kami di di halaman hubungi kami atau hubungi call center di nomor (021) 1500 987 atau e-mail ke customercare.indo@zurich.co.id.
+        </mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Kami senantiasa berupaya untuk memberikan pelayanan terbaik kepada kamu. Terima kasih atas kepercayaan yang telah diberikan kepada kami.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" padding-bottom="50px">
+      <mj-column>
+        <mj-text align="left" line-height="25px" font-size="16px" color="#23366f">
+          Hormat Kami,
+        </mj-text>
+        <mj-text align="left" line-height="25px" font-size="16px" color="#23366f">
+          BarengZurich
+        </mj-text>
+        <mj-text padding-top="15px" align="left" font-style="italic" line-height="25px" font-size="16px" color="#23366f">
+          Mohon agar tidak membalas melalui alamat email ini.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="/images/footer.jpg" alt="header image" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'ZurichSans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+
+  src: url('/fonts/OpenType/ZurichSans-Light.eot');
+  src: url('/fonts/EmbeddedOpenType/ZurichSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/WebOpenType/ZurichSans-Light.woff2') format('woff2'),
+    url('/fonts/WebOpenType/ZurichSans-Light.woff') format('woff'),
+    url('/fonts/TrueType/ZurichSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ZurichSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+
+  src: url('/fonts/OpenType/ZurichSans-Regular.eot');
+  src: url('/fonts/EmbeddedOpenType/ZurichSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/WebOpenType/ZurichSans-Regular.woff2') format('woff2'),
+    url('/fonts/WebOpenType/ZurichSans-Regular.woff') format('woff'),
+    url('/fonts/TrueType/ZurichSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ZurichSans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+
+  src: url('/fonts/OpenType/ZurichSans-Medium.eot');
+  src: url('/fonts/EmbeddedOpenType/ZurichSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/WebOpenType/ZurichSans-Medium.woff2') format('woff2'),
+    url('/fonts/WebOpenType/ZurichSans-Medium.woff') format('woff'),
+    url('/fonts/TrueType/ZurichSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ZurichSans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+
+  src: url('/fonts/OpenType/ZurichSans-Semibold.eot');
+  src: url('/fonts/EmbeddedOpenType/ZurichSans-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/WebOpenType/ZurichSans-Semibold.woff2') format('woff2'),
+    url('/fonts/WebOpenType/ZurichSans-Semibold.woff') format('woff'),
+    url('/fonts/TrueType/ZurichSans-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ZurichSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+
+  src: url('/fonts/OpenType/ZurichSans-Bold.eot');
+  src: url('/fonts/EmbeddedOpenType/ZurichSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/WebOpenType/ZurichSans-Bold.woff2') format('woff2'),
+    url('/fonts/WebOpenType/ZurichSans-Bold.woff') format('woff'),
+    url('/fonts/TrueType/ZurichSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ogg';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+
+  src: url('/fonts/OpenType/Ogg-Regular.eot');
+  src: url('/fonts/EmbeddedOpenType/Ogg-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/WebOpenType/Ogg-Regular.woff2') format('woff2'),
+    url('/fonts/WebOpenType/Ogg-Regular.woff') format('woff'),
+    url('/fonts/TrueType/Ogg-Regular.ttf') format('truetype');
+}
