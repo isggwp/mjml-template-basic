@@ -1,0 +1,125 @@
+<mjml>
+  <mj-head>
+    <mj-font name="ZurichSans" href="/fonts/zurich-font.css" />
+    <mj-attributes>
+      <mj-all font-family="ZurichSans, Arial"></mj-all>
+      <mj-text padding="0 25px" font-size="13px"></mj-text>
+      <mj-section background-color="#ffffff"></mj-section>
+      <mj-class name="preheader" color="#000000" font-size="11px"></mj-class>
+    </mj-attributes>
+
+    <mj-style>
+      @media (min-width: 320px) {
+        .mobile-data {
+          display: block;
+        }
+
+        .desktop-data {
+          display: none;
+        }
+      }
+
+      @media (min-width: 425px) {
+        .mobile-data {
+          display: none;
+
+        }
+
+        .desktop-data {
+          display: block;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#dde4e3">
+    <!-- HEADER -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="/images/header.jpg" alt="header image" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="5px" padding-top="10px">
+      <mj-column>
+        <mj-text align="left" line-height="25px" padding-top="50px" font-size="16px" color="#23366f">Pemegang Polis yang terhormat,</mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Selamat! Pembayaran Premi Anda telah berhasil.
+          Terima kasih telah memilih PT Zurich Topas Life (Zurich) sebagai perusahaan asuransi pilihan Anda. Kami telah menerima pembayaran Premi Anda, sebagai berikut:
+        </mj-text>
+
+        <!-- CONTENT MOBILE-->
+        <mj-table css-class="mobile-data" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          <tr>
+            <td width="200px" style="padding: 0;">No Polis :</td>
+          </tr>
+          <tr>
+            <td width="140px" style="padding: 0;"><strong>12345678<strong></td>
+          </tr>
+
+          <tr>
+            <td width="10px" style="padding: 15px 0 0 0;">Nama Pemegang Polis :</td>
+          </tr>
+          <tr>
+            <td width="140px" style="padding: 0;"><strong>Ahmad Mustofa<strong></td>
+          </tr>
+
+          <tr>
+            <td width="10px" style="padding: 15px 0 0 0;">Jumlah yang dibayarkan :</td>
+          </tr>
+          <tr>
+            <td width="140px" style="padding: 0;"><strong>Rp.XX.XXX.XXX,00<srong>
+            </td>
+          </tr>
+        </mj-table>
+
+
+        <!-- CONTENT 425 to Desktop-->
+        <mj-table css-class="desktop-data" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          <tr>
+            <td width="200px" style="padding: 0;">No Polis</td>
+            <td width="10px" style="padding: 0;">:</td>
+            <td style="padding: 0;">12345678</td>
+          </tr>
+
+          <tr>
+            <td width="140px" style="padding: 0;">Nama Pemegang Polis</td>
+            <td style="padding: 0;">:</td>
+            <td style="padding: 0">Ahmad Mustofa</td>
+          </tr>
+          <tr>
+            <td width="140px" style="padding: 0;">Jumlah yang dibayarkan</td>
+            <td style="padding: 0;">:</td>
+            <td style="padding: 0;">Rp XX.XXX.XXX,00</td>
+          </tr>
+
+        </mj-table>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Apabila Anda membutuhkan informasi lebih lanjut, bermaksud melakukan perubahan alamat email, memiliki saran atau masukan, Anda dapat menghubungi Zurich Customer Care 1500-987 atau email customercare.indo@zurich.co.id
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" padding-bottom="50px">
+      <mj-column>
+        <mj-text align="left" line-height="25px" font-size="16px" color="#23366f">
+          Hormat Kami,
+        </mj-text>
+        <mj-text align="left" line-height="25px" font-size="16px" color="#23366f">
+          PT Zurich Topas Life
+        </mj-text>
+        <mj-text padding-top="75px" align="left" line-height="25px" font-size="16px" color="#23366f">
+
+          PT Zurich Topas Life berizin dan diawasi oleh Otoritas Jasa Keuangan Indonesia (OJK)
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="/images/footer.jpg" alt="header image" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
