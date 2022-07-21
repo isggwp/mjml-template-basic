@@ -7,7 +7,86 @@
       <mj-section background-color="#ffffff"></mj-section>
       <mj-class name="preheader" color="#000000" font-size="11px"></mj-class>
     </mj-attributes>
+    <mj-style>
+      .text-base {
+        line-height: 25px;
+      }
 
+      .list-format-password {
+        font-size: 16px;
+        list-style-type: disc;
+        list-style-position: outside;
+        padding-left: 16px;
+        padding-right: 16px;
+        color: #23366f;
+      }
+
+      .list-format {
+        list-style-type: disc;
+        margin-bottom: 8px;
+        font-size: 16px;
+        color: #23366f;
+      }
+
+      .list-format-decimal {
+        list-style-type: decimal;
+        margin-bottom: 8px;
+        font-size: 16px;
+        color: #23366f;
+        line-height: 25px;
+        padding-left: 8px;
+      }
+
+      .list-update-data {
+        margin-left: 10px;
+        list-style-type: decimal;
+        list-style-position: outside;
+        color: #23366f;
+      }
+
+      .contoh {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #dde4e3;
+        margin-top: 40px;
+        border-radius: 8px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+      }
+
+      .text-contoh {
+        font-size: 18px;
+        font-weight: bold;
+        color: #23366f;
+        font-family: ZurichSans, Arial;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+      }
+
+      .text-polish {
+        font-size: 25px;
+        font-weight: bold;
+        color: #23366f;
+        font-family: ZurichSans, Arial;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+      }
+
+      .text-desc-contoh {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 25px;
+
+        padding-right: 15px;
+        color: #23366f;
+        font-family: ZurichSans, Arial;
+        padding-left: 15px;
+        padding-top: 10px;
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#dde4e3">
     <!-- HEADER -->
@@ -18,14 +97,16 @@
     </mj-section>
     <mj-section padding-bottom="5px" padding-top="10px">
       <mj-column>
-        <mj-text align="left" line-height="25px" padding-top="50px" font-size="16px" color="#23366f">Hi, Ahmad Mustofa</mj-text>
+        <mj-text align="left" line-height="25px" padding-top="50px" font-size="16px" color="#23366f">
+          Pemegang Polis yang Terhormat,
+        </mj-text>
 
         <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
           Terima kasih atas kepercayaannya telah memilih PT Zurich Topas Life untuk memberikan perlindungan finansial bagi Anda dan keluarga.
         </mj-text>
 
         <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
-          Kami sudah menerima pengajuan pencairan bonus kamu sebesar Rpxx dan akan segera melakukan validasi terkait data-data yang kamu kirimkan.
+          Terlampir adalah welcome letter, ringkasan dan ketentuan Polis, serta ilustrasi Polis asuransi Anda. Polis cetak akan kami kirimkan ke alamat rumah yang telah Anda daftarkan pada saat pembelian polis di website <strong>BarengZurich.</strong>
         </mj-text>
 
         <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
@@ -33,11 +114,73 @@
         </mj-text>
 
         <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
-          Untuk pertanyaan, saran, dan masukan, kamu bisa mengunjungi halaman website kami di di halaman hubungi kami atau hubungi call center di nomor (021) 1500 987 atau e-mail ke customercare.indo@zurich.co.id.
+          Silahkan gunakan password berikut untuk membuka Pernyataan Transaksi:
+        </mj-text>
+
+        <!-- CONTENT -->
+        <mj-text>
+          <ul class="list-format-password">
+            <li class="text-base">
+              Format password adalah XXDDMMYY dengan kombinasi :
+            </li>
+
+            <ul css-class="list-format-password" style="margin-top: 10px">
+              <li class="list-format">XX : 2 digit terakhir nomor polis Anda</li>
+              <li class="list-format">DD : 2 digit tanggal lahir Anda</li>
+              <li class="list-format">MM : 2 digit bulan lahir Anda</li>
+              <li class="list-format">YY : 2 digit terakhir tahun Lahir Anda</li>
+            </ul>
+          </ul>
+        </mj-text>
+
+        <mj-text>
+          <div class="contoh">
+            <div class="text-contoh">
+              Contoh
+            </div>
+
+            <div class="text-desc-contoh">
+              No. Polis 12345678, tanggal lahir 02 Agustus 1986
+              maka password menjadi :
+            </div>
+            <div class="text-polish">
+              78020886
+            </div>
+          </div>
+        </mj-text>
+
+
+        <mj-text align="left" line-height="25px" padding-top="45px" font-size="16px" color="#23366f">
+          Lakukan pengkinian data personal Anda agar kami dapat terus meningkatkan pelayanan untuk kamu. Pengkinian data ini juga sesuai dengan Peraturan Otoritas Jasa Keuangan Nomor 12/POJK.01/2017 tentang Penerapan Program Anti Pencucian Uang dan Pencegahan Pendanaan Terorisme di Sektor Jasa Keuangan. Adapaun cara melakukan pengkinian data adalah sebagai berikut:
+        </mj-text>
+
+        <!-- CONTENT -->
+
+        <mj-text>
+          <ul class="list-update-data">
+            <li class="list-format-decimal">
+              Memasuki halaman ubah personal data pada website
+              <strong>BarengZurich.</strong>
+
+            </li>
+
+            <li class="list-format-decimal">
+              Ubah data kamu sesuai kondisi Anda saat ini dan klik tombol
+              “Simpan Data”.
+            </li>
+
+            <li class="list-format-decimal">
+              Data Anda berhasil diubah.
+            </li>
+          </ul>
         </mj-text>
 
         <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
-          Kami senantiasa berupaya untuk memberikan pelayanan terbaik kepada kamu. Terima kasih atas kepercayaan yang telah diberikan kepada kami.
+          Untuk pertanyaan, saran, dan masukan, Anda bisa mengunjungi halaman website kami di halaman hubungi kami atau hubungi call center di nomor (021) 1500 987 atau e-mail ke customercare.indo@zurich.co.id.
+        </mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Kami senantiasa berupaya untuk memberikan pelayanan terbaik kepada Anda. Terima kasih atas kepercayaan yang telah diberikan kepada kami.
         </mj-text>
       </mj-column>
     </mj-section>
