@@ -119,7 +119,7 @@
                   mso-table-rspace: 0pt;
                   direction: ltr;
                   font-size: 0px;
-                  padding: 20px 0;
+                  padding: 0px;
                   text-align: center;
                 "
               >
@@ -143,25 +143,22 @@
                     cellpadding="0"
                     cellspacing="0"
                     role="presentation"
+                    width="100%"
                     style="
                       border-collapse: collapse;
                       mso-table-lspace: 0pt;
                       mso-table-rspace: 0pt;
-                      vertical-align: top;
                     "
-                    width="100%"
                   >
                     <tbody>
                       <tr>
                         <td
-                          align="center"
                           style="
                             border-collapse: collapse;
                             mso-table-lspace: 0pt;
                             mso-table-rspace: 0pt;
-                            font-size: 0px;
+                            vertical-align: top;
                             padding: 0px;
-                            word-break: break-word;
                           "
                         >
                           <table
@@ -173,41 +170,65 @@
                               border-collapse: collapse;
                               mso-table-lspace: 0pt;
                               mso-table-rspace: 0pt;
-                              border-collapse: collapse;
-                              border-spacing: 0px;
                             "
+                            width="100%"
                           >
                             <tbody>
                               <tr>
                                 <td
+                                  align="center"
                                   style="
                                     border-collapse: collapse;
                                     mso-table-lspace: 0pt;
                                     mso-table-rspace: 0pt;
-                                    width: 600px;
+                                    font-size: 0px;
+                                    padding: 0px;
+                                    word-break: break-word;
                                   "
                                 >
-                                  <img
-                                    alt="header image"
-                                    height="auto"
-                                    src="/images/header.jpg"
+                                  <table
+                                    border="0"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    role="presentation"
                                     style="
-                                      border: 0;
-                                      height: auto;
-                                      line-height: 100%;
-                                      outline: none;
-                                      text-decoration: none;
-                                      -ms-interpolation-mode: bicubic;
-                                      border: 0;
-                                      display: block;
-                                      outline: none;
-                                      text-decoration: none;
-                                      height: auto;
-                                      width: 100%;
-                                      font-size: 13px;
+                                      mso-table-lspace: 0pt;
+                                      mso-table-rspace: 0pt;
+                                      border-collapse: collapse;
+                                      border-spacing: 0px;
                                     "
-                                    width="600"
-                                  />
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td
+                                          style="
+                                            border-collapse: collapse;
+                                            mso-table-lspace: 0pt;
+                                            mso-table-rspace: 0pt;
+                                            width: 600px;
+                                          "
+                                        >
+                                          <img
+                                            alt="header image"
+                                            height="auto"
+                                            src="cid:header-logo"
+                                            style="
+                                              line-height: 100%;
+                                              -ms-interpolation-mode: bicubic;
+                                              border: 0;
+                                              display: block;
+                                              outline: none;
+                                              text-decoration: none;
+                                              height: auto;
+                                              width: 100%;
+                                              font-size: 13px;
+                                            "
+                                            width="600"
+                                          />
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
                                 </td>
                               </tr>
                             </tbody>
@@ -411,7 +432,7 @@
                                   padding: 0;
                                 "
                               >
-                                <strong>12345678<strong></strong></strong>
+                                <strong>${polis}<strong></strong></strong>
                               </td>
                             </tr>
                             <tr>
@@ -437,7 +458,7 @@
                                   padding: 0;
                                 "
                               >
-                                <strong>Ahmad Mustofa<strong></strong></strong>
+                                <strong>${name}<strong></strong></strong>
                               </td>
                             </tr>
                             <tr>
@@ -463,7 +484,7 @@
                                   padding: 0;
                                 "
                               >
-                                <strong>Rp.xxxxx,00<srong> </srong></strong>
+                                <strong>${premi}<srong> </srong></strong>
                               </td>
                             </tr>
                             <tr>
@@ -489,7 +510,7 @@
                                   padding: 0;
                                 "
                               >
-                                <strong>20-12-2022<srong> </srong></strong>
+                                <strong>${date}<srong> </srong></strong>
                               </td>
                             </tr>
                             <tr>
@@ -515,7 +536,7 @@
                                   padding: 0;
                                 "
                               >
-                                <strong>XXXXXXXXXXXX<srong> </srong></strong>
+                                <strong>${vaMandiri}<srong> </srong></strong>
                               </td>
                             </tr>
                           </table>
@@ -585,7 +606,7 @@
                                   padding: 0;
                                 "
                               >
-                                12345678
+                                ${polis}
                               </td>
                             </tr>
                             <tr>
@@ -618,7 +639,7 @@
                                   padding: 0;
                                 "
                               >
-                                Ahmad Mustofa
+                                ${name}
                               </td>
                             </tr>
                             <tr>
@@ -651,7 +672,7 @@
                                   padding: 0;
                                 "
                               >
-                                Rp xxx.xxx.xxx.xx,00
+                                ${premi}
                               </td>
                             </tr>
                             <tr>
@@ -684,7 +705,7 @@
                                   padding: 0;
                                 "
                               >
-                                20-07-2022
+                                ${date}
                               </td>
                             </tr>
                             <tr>
@@ -717,7 +738,7 @@
                                   padding: 0;
                                 "
                               >
-                                XXXXXXXXXXXX
+                                ${vaMandiri}
                               </td>
                             </tr>
                           </table>
@@ -968,7 +989,7 @@
                   mso-table-rspace: 0pt;
                   direction: ltr;
                   font-size: 0px;
-                  padding: 20px 0;
+                  padding: 0px;
                   text-align: center;
                 "
               >
@@ -1019,7 +1040,6 @@
                             cellspacing="0"
                             role="presentation"
                             style="
-                              border-collapse: collapse;
                               mso-table-lspace: 0pt;
                               mso-table-rspace: 0pt;
                               border-collapse: collapse;
@@ -1039,13 +1059,9 @@
                                   <img
                                     alt="header image"
                                     height="auto"
-                                    src="/images/footer.jpg"
+                                    src="cid:footer-logo"
                                     style="
-                                      border: 0;
-                                      height: auto;
                                       line-height: 100%;
-                                      outline: none;
-                                      text-decoration: none;
                                       -ms-interpolation-mode: bicubic;
                                       border: 0;
                                       display: block;

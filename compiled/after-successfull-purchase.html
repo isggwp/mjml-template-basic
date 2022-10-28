@@ -131,14 +131,12 @@
     }
 
     .contoh {
-      display: flex;
-      flex-direction: column;
       width: 100%;
       background-color: #dde4e3;
       margin-top: 40px;
       border-radius: 8px;
-      padding-bottom: 20px;
-      padding-top: 10px;
+      list-style-type: none;
+      padding: 0;
     }
 
     .text-contoh {
@@ -149,6 +147,14 @@
       padding-left: 15px;
       padding-right: 15px;
       padding-top: 10px;
+    }
+
+    .text-contoh-top {
+      padding-top: 20px;
+    }
+
+    .text-contoh-bot {
+      padding-bottom: 20px;
     }
 
     .text-polish {
@@ -183,18 +189,26 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
-                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                      <td style="vertical-align:top;padding:0px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td style="width:600px;">
-                                <img alt="header image" height="auto" src="/images/header.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600" />
+                              <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="width:600px;">
+                                        <img alt="header image" height="auto" src="/images/header.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600" />
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
                               </td>
                             </tr>
                           </tbody>
@@ -237,11 +251,6 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:0 25px;padding-top:25px;word-break:break-word;">
-                        <div style="font-family:ZurichSans, Arial;font-size:16px;line-height:25px;text-align:left;color:#23366f;">Apabila semua data sudah lengkap dan valid, pembayaran akan dilakukan selambat-lambatnya pada 14 hari kerja, tingkatkan terus referensi kamu di program influencer bersama <strong>BarengZurich</strong> untuk mendapatkan lebih banyak bonus.</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:0 25px;padding-top:25px;word-break:break-word;">
                         <div style="font-family:ZurichSans, Arial;font-size:16px;line-height:25px;text-align:left;color:#23366f;">Silahkan gunakan password berikut untuk membuka Pernyataan Transaksi:</div>
                       </td>
                     </tr>
@@ -264,11 +273,11 @@
                     <tr>
                       <td align="left" style="font-size:0px;padding:0 25px;word-break:break-word;">
                         <div style="font-family:ZurichSans, Arial;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                          <div class="contoh">
-                            <div class="text-contoh"> Contoh </div>
-                            <div class="text-desc-contoh"> No. Polis 12345678, tanggal lahir 02 Agustus 1986 maka password menjadi : </div>
-                            <div class="text-polish"> 78020886 </div>
-                          </div>
+                          <ul class="contoh">
+                            <li class="text-contoh text-contoh-top"> Contoh </li>
+                            <li class="text-desc-contoh"> No. Polis 12345678, tanggal lahir 02 Agustus 1986 maka password menjadi : </li>
+                            <li class="text-polish text-contoh-bot"> 78020886 </li>
+                          </ul>
                         </div>
                       </td>
                     </tr>
@@ -284,7 +293,7 @@
                           <ul class="list-update-data">
                             <li class="list-format-decimal"> Memasuki halaman ubah personal data pada website <strong>BarengZurich.</strong>
                             </li>
-                            <li class="list-format-decimal"> Ubah data kamu sesuai kondisi Anda saat ini dan klik tombol “Simpan Data”. </li>
+                            <li class="list-format-decimal"> Ubah data anda sesuai kondisi Anda saat ini dan klik tombol “Simpan Data”. </li>
                             <li class="list-format-decimal"> Data Anda berhasil diubah. </li>
                           </ul>
                         </div>
@@ -292,7 +301,7 @@
                     </tr>
                     <tr>
                       <td align="left" style="font-size:0px;padding:0 25px;padding-top:25px;word-break:break-word;">
-                        <div style="font-family:ZurichSans, Arial;font-size:16px;line-height:25px;text-align:left;color:#23366f;">Untuk pertanyaan, saran, dan masukan, Anda bisa mengunjungi halaman website kami di halaman hubungi kami atau hubungi call center di nomor (021) 1500 987 atau e-mail ke customercare.indo@zurich.co.id.</div>
+                        <div style="font-family:ZurichSans, Arial;font-size:16px;line-height:25px;text-align:left;color:#23366f;">Untuk pertanyaan, saran, dan masukan, Anda bisa mengunjungi halaman website kami di <u><em>https://bareng.zurich.co.id/kontak-kami</em></u> atau hubungi call center di nomor (021) 1500 987 atau e-mail ke customercare.indo@zurich.co.id.</div>
                       </td>
                     </tr>
                     <tr>
@@ -325,12 +334,12 @@
                       </td>
                     </tr>
                     <tr>
-                      <td align="left" style="font-size:0px;padding:0 25px;word-break:break-word;">
-                        <div style="font-family:ZurichSans, Arial;font-size:16px;line-height:25px;text-align:left;color:#23366f;">BarengZurich</div>
+                      <td align="left" style="font-size:0px;padding:0 25px;padding-top:2px;word-break:break-word;">
+                        <div style="font-family:ZurichSans, Arial;font-size:16px;line-height:25px;text-align:left;color:#23366f;">PT Zurich Topas Life</div>
                       </td>
                     </tr>
                     <tr>
-                      <td align="left" style="font-size:0px;padding:0 25px;padding-top:15px;word-break:break-word;">
+                      <td align="left" style="font-size:0px;padding:0 25px;padding-top:25px;word-break:break-word;">
                         <div style="font-family:ZurichSans, Arial;font-size:16px;font-style:italic;line-height:25px;text-align:left;color:#23366f;">Mohon agar tidak membalas melalui alamat email ini.</div>
                       </td>
                     </tr>
@@ -350,7 +359,7 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+            <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
               <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">

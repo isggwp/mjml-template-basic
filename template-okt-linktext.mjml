@@ -1,0 +1,93 @@
+<mjml>
+  <mj-head>
+    <mj-font name="ZurichSans" href="/fonts/zurich-font.css" />
+    <mj-attributes>
+      <mj-all font-family="ZurichSans, Arial"></mj-all>
+      <mj-text padding="0 25px" font-size="13px"></mj-text>
+      <mj-section background-color="#ffffff"></mj-section>
+      <mj-class name="preheader" color="#000000" font-size="11px"></mj-class>
+    </mj-attributes>
+
+  </mj-head>
+  <mj-body background-color="#dde4e3">
+    <!-- HEADER -->
+    <mj-section padding="0px">
+      <mj-column width="100%" padding="0px">
+        <mj-image src="/images/Header-BTN-RDD.jpg" alt="header image" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="5px" padding-top="10px">
+      <mj-column>
+        <mj-text align="left" line-height="25px" padding-top="50px" font-size="16px" color="#23366f">Hi, Ahmad Mustofa</mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
+          Zurich Topas Life kini hadir dengan layanan terbaru, Referral Digital Direct (RDD). Sekarang nasabah bisa membeli produk Ziaga Life Plus hanya dengan melakukan scan QR code / kode unik yang kamu miliki.
+        </mj-text>
+
+        <mj-image padding-top="30px" padding-left="25px" padding-right="25px" src="/images/RDD-image-btn.jpg" alt="header image" padding="0px"></mj-image>
+
+        <mj-text align="left" line-height="25px" padding-top="30px" font-size="16px" color="#23366f">
+          Berikut merupakan QR code / kode unik kamu:
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+
+    <mj-section padding-top="10px">
+      <mj-column padding-left="20px" padding-right="20px" width="100%">
+
+         <mj-button border-radius="10px" color="#23366f" padding="3px" font-size="16px" align="left" background-color="#fff">
+          QR Code
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="5px" padding-top="0">
+      <mj-column>
+
+        <mj-text font-style="italic" font-weight="bold" align="left" line-height="25px" padding-top="10px" font-size="16px" color="#23366f">
+          Referal Link
+        </mj-text>
+
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="5px" padding-top="10px">
+      <mj-column>
+
+        <mj-text align="left" line-height="25px" padding-top="10px" font-size="16px" color="#23366f">
+          Dengan adanya layanan terbaru ini, kami berharap dapat membantu kamu dalam mendapatkan fee based income lebih banyak lagi!
+        </mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="10px" font-size="16px" color="#23366f">
+          Semangat pagi!
+        </mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="20px" font-size="16px" color="#23366f">
+          Jika ada pertanyaan dan kendala seputar layanan RDD, dapat menghubungi kami di support.rdd@zurich.co.id
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section padding-top="16px" padding-bottom="50px">
+      <mj-column>
+        <mj-text align="left" line-height="25px" font-size="16px" color="#23366f">
+          Salam,
+        </mj-text>
+        <mj-text align="left" line-height="25px" font-size="16px" color="#23366f">
+          RDD team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section padding="0px">
+      <mj-column width="100%">
+        <mj-image src="/images/Footer-BTN-RDD.jpg" alt="header image" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

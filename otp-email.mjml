@@ -11,8 +11,8 @@
   </mj-head>
   <mj-body background-color="#dde4e3">
     <!-- HEADER -->
-    <mj-section>
-      <mj-column width="100%">
+    <mj-section padding="0px">
+      <mj-column width="100%" padding="0px">
         <mj-image src="/images/header.jpg" alt="header image" padding="0px"></mj-image>
       </mj-column>
     </mj-section>
@@ -20,11 +20,11 @@
       <mj-column>
         <mj-text align="left" line-height="25px" padding-top="50px" font-size="16px" color="#23366f">Hi, Ahmad Mustofa</mj-text>
 
-        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">Kode verifikasi Kamu</mj-text>
+        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">Anda telah melakukan pendaftaran di BarengZurich. Kode verifikasi Kamu adalah</mj-text>
 
-        <mj-text align="left" line-height="25px" padding-top="20px" font-size="36px" color="#23366f"><strong>910584<strong></mj-text>
+        <mj-text align="left" line-height="25px" padding-top="30px" font-size="36px" color="#23366f"><strong>910584<strong></mj-text>
 
-        <mj-text align="left" line-height="25px" padding-top="20px" font-size="16px" color="#23366f">Segera masukkan kode verifikasi tersebut ke akun Kamu</mj-text>
+        <mj-text align="left" line-height="25px" padding-top="30px" font-size="16px" color="#23366f">Segera masukkan kode verifikasi tersebut ke akun Kamu</mj-text>
 
       </mj-column>
     </mj-section>
@@ -40,8 +40,17 @@
     <mj-section padding-top="10px" padding-bottom="50px">
       <mj-column>
         <mj-text align="left" line-height="25px" font-size="16px" color="#23366f" font-style="italic">
-          *Kode verifikasi tersebut akan habis masa berlakunya dan tidak dapat digunakan kembali dalam waktu 5 menit.
+          *Kode verifikasi ini berlaku 5 menit.
         </mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="20px" font-size="16px" color="#23366f">
+          Lindungi diri Anda, teman, dan keluarga BarengZurich.</mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="70px" font-size="16px" color="#23366f">
+          PT Zurich Topas Life berizin dan diawasi oleh Otoritas Jasa Keuangan Indonesia (OJK)
+        </mj-text>
+
+
       </mj-column>
     </mj-section>
     <!-- Footer -->

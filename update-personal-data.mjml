@@ -11,8 +11,8 @@
   </mj-head>
   <mj-body background-color="#dde4e3">
     <!-- HEADER -->
-    <mj-section padding="0">
-      <mj-column width="100%">
+    <mj-section padding="0px">
+      <mj-column width="100%" padding="0px">
         <mj-image src="/images/header.jpg" alt="header image" padding="0px"></mj-image>
       </mj-column>
     </mj-section>
@@ -20,9 +20,11 @@
       <mj-column>
         <mj-text align="left" line-height="25px" padding-top="50px" font-size="16px" color="#23366f">Hi, Ahmad Mustofa</mj-text>
 
-        <mj-text align="left" line-height="25px" padding-top="25px" font-size="16px" color="#23366f">
-          Silakan atur ulang kata sandi akun <strong>BarengZurich</strong> Anda melalui link di bawah :
-        </mj-text>
+        <mj-text align="left" line-height="25px" padding-top="10px" font-size="16px" color="#23366f">Anda telah melakukan pembaruan data personal. Kode verifikasi Anda adalah</mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="30px" font-size="36px" color="#23366f"><strong>910584<strong></mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="30px" font-size="16px" color="#23366f">Kode verivikasi ini berlaku 5 menit, Segera masukkan kode verifikasi tersebut ke akun Kamu</mj-text>
 
       </mj-column>
     </mj-section>
@@ -30,23 +32,29 @@
     <mj-section>
       <mj-column padding-left="20px" padding-right="20px" width="100%">
         <mj-button border-radius="10px" padding="3px" font-size="16px" align="left" background-color="#19bab6">
-          Atur Kata Sandi
+          Verifikasi Sekarang
         </mj-button>
       </mj-column>
     </mj-section>
 
-    <mj-section padding-top="12px" padding-bottom="50px">
+    <mj-section padding-top="10px" padding-bottom="50px">
       <mj-column>
-        <mj-text font-style="italic" align="left" line-height="25px" font-size="16px" color="#23366f">
-          *Link tersebut berlaku 10 menit.
+        <mj-text align="left" line-height="25px" font-size="16px" color="#23366f" font-style="italic">
+          *Kode verifikasi ini berlaku 5 menit.
         </mj-text>
-        <mj-text padding-top="20px" align="left" line-height="25px" font-size="16px" color="#23366f">
-          Terima Kasih.
+
+        <mj-text align="left" line-height="25px" padding-top="10px" font-size="16px" color="#23366f">
+          Lindungi diri Anda, teman, dan keluarga BarengZurich.</mj-text>
+
+        <mj-text align="left" line-height="25px" padding-top="30px" font-size="16px" color="#23366f">
+          PT Zurich Topas Life berizin dan diawasi oleh Otoritas Jasa Keuangan Indonesia (OJK)
         </mj-text>
+
+
       </mj-column>
     </mj-section>
     <!-- Footer -->
-    <mj-section padding="0">
+    <mj-section padding="0px">
       <mj-column width="100%">
         <mj-image src="/images/footer.jpg" alt="header image" padding="0px"></mj-image>
       </mj-column>
